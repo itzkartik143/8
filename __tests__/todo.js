@@ -5,6 +5,7 @@ const app = require("../app");
 let server;
 let agent;
 
+
 describe("Test case for database", () => {
   beforeAll(async () => {
     await db.sequelize.sync({ force: true });
